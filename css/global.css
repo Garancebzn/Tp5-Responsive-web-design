@@ -1,8 +1,27 @@
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal; 
+    font-style: normal;
     font-weight: bold;
+}
+
+.container{
+text-align: center;
+}
+
+.container_fluid{
+    
+}
+
+aside .col-sm{
+    width: 15%;
+    float: left;
+}
+
+main .col-sm{
+    width: 75%;
+    float: right;
+    margin-top: 0px;
 }
 
 * { 
